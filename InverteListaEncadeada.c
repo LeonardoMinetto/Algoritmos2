@@ -1,3 +1,9 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+#include "TAD_listasEncadeadas.h"
+
 void inverteLista(ListaE *l){
     Cell *aux1, *aux2=NULL;
     if(l == NULL){
